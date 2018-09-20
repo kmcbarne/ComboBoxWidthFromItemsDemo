@@ -1,0 +1,17 @@
+﻿<Window x:Class="ComboBoxWidthFromItemsDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxWidthFromItemsDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <ComboBox local:ComboBoxWidthFromItemsBehavior.ComboBoxWidthFromItems="True">
+            <ComboBoxItem Content="Big" />
+            <ComboBoxItem Content="Bigger" />
+            <ComboBoxItem Content="Biggest" />
+            <ComboBoxItem Content="Supercalifragilisticexpialidocious" />
+        </ComboBox>
+    </StackPanel>
+</Window>
