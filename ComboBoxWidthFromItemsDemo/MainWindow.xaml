@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:ComboBoxWidthFromItemsDemo"
         mc:Ignorable="d"
         Title="MainWindow" SizeToContent="WidthAndHeight">
+    <!--Code originally sourced from:  https://stackoverflow.com/questions/1034505/how-can-i-make-a-wpf-combo-box-have-the-width-of-its-widest-element-in-xaml-->
     <StackPanel>
         <ComboBox local:ComboBoxWidthFromItemsBehavior.ComboBoxWidthFromItems="True">
             <ComboBoxItem Content="Big" />

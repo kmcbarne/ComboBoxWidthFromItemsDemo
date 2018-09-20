@@ -11,6 +11,9 @@ using System.Windows.Controls.Primitives;
 
 namespace ComboBoxWidthFromItemsDemo
 {
+    /// <summary>
+    /// Code originally sourced from:  https://stackoverflow.com/questions/1034505/how-can-i-make-a-wpf-combo-box-have-the-width-of-its-widest-element-in-xaml
+    /// </summary>
     public static class ComboBoxExtensionMethods
     {
         public static void SetWidthFromItems(this ComboBox box)
